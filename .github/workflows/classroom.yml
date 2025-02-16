@@ -25,7 +25,7 @@ jobs:
         expected-output: "Question q1: 4/4"
         comparison-method: contains
         timeout: 3
-        max-score: 10
+        max-score: 20
     
     - name: Q2
       id: q2
@@ -38,7 +38,7 @@ jobs:
         expected-output: "Question q2: 5/5"
         comparison-method: contains
         timeout: 3
-        max-score: 10
+        max-score: 20
     
     - name: Q3
       id: q3
@@ -51,7 +51,7 @@ jobs:
         expected-output: "Question q3: 5/5"
         comparison-method: contains
         timeout: 3
-        max-score: 10
+        max-score: 20
 
     - name: Q4
       id: q4
@@ -64,7 +64,7 @@ jobs:
         expected-output: "Question q4: 5/5"
         comparison-method: contains
         timeout: 3
-        max-score: 10
+        max-score: 20
 
     - name: Q5
       id: q5
@@ -77,7 +77,7 @@ jobs:
         expected-output: "Question q5: 6/6"
         comparison-method: contains
         timeout: 3
-        max-score: 10
+        max-score: 20
 
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
